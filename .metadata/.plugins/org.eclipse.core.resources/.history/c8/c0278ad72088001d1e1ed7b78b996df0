@@ -1,0 +1,13 @@
+package Constractor;
+
+public class Test2 {
+
+}
+class Student{
+	
+	int id;
+	String name;
+	public void show() {
+		System.out.println("Student Detail "+id +" "+name);
+	}
+}

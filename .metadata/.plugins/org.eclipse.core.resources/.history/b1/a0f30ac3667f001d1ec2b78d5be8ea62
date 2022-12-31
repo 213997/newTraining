@@ -1,0 +1,19 @@
+package com.inhecitance;
+
+public class vichel {
+	void model() {
+		System.out.println("2022");
+	}
+	void nomberofWheles() {
+		System.out.println("car have no of 4 weels");
+	}
+
+}
+class car extends vichel{
+	public static void main(String[] args) {
+		car c= new car();
+		c.model();
+		c.nomberofWheles();
+	}
+	
+}

@@ -1,0 +1,30 @@
+package com.simpleexample.Projrct;
+
+public class Employee {
+	int empId;
+	String Ename;
+	String Location;
+	public int getEmpId() {
+		return empId;
+	}
+	public void setEmpId(int empId) {
+		this.empId = empId;
+	}
+	public String getEname() {
+		return Ename;
+	}
+	public void setEname(String ename) {
+		Ename = ename;
+	}
+	public String getLocation() {
+		return Location;
+	}
+	public void setLocation(String location) {
+		Location = location;
+	}
+	
+	public void display() {
+		
+	}
+
+}

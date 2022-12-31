@@ -1,0 +1,17 @@
+package com.curd.entity;
+
+import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Employee {
+
+	@Id
+	int eid;
+	String ename;
+	String location;
+	long phone;
+	double salary;
+	
+}

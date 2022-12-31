@@ -1,0 +1,10 @@
+package com.CompratorExample;
+
+public class model {
+	private String ustid;
+	private String name;
+	private String Location;
+	
+	
+
+}

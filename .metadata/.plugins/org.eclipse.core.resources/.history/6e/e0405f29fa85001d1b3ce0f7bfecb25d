@@ -1,0 +1,26 @@
+package com.example.demo.entity;
+
+import org.hibernate.annotations.IdGeneratorType;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+
+
+@Entity
+@Table(name="EmployeeTable")
+public class Employee {
+	
+	@Id
+	private int empId;
+	
+
+	private String empName;
+	private String location;
+	
+	private String domain;
+	private String emailId;
+	
+	private int experience;
+}

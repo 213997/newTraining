@@ -1,0 +1,23 @@
+package com.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.employee.Employee;
+
+@Service
+public class EmployeeService {
+	
+	public Employee createEmployee(Employee emp) {
+		
+		return emp;
+	}
+
+	public List<Employee> getEMployee() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+
+}

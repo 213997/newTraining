@@ -1,0 +1,11 @@
+package com.labour.laburservice.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.labour.laburservice.entity.Labour;
+
+@Repository
+public interface labourRepo extends JpaRepository<Labour, Integer> {
+
+}

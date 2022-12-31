@@ -1,0 +1,5 @@
+package com.labour.laburservice.exception;
+
+public class ExceptionHandlor {
+
+}

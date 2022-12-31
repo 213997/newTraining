@@ -1,0 +1,19 @@
+package com.curd.entity;
+
+import org.hibernate.annotations.GeneratorType;
+import org.hibernate.annotations.IdGeneratorType;
+import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Employee {
+
+	@Id
+	int eid;
+	String ename;
+	String location;
+	long phone;
+	double salary;
+	
+}

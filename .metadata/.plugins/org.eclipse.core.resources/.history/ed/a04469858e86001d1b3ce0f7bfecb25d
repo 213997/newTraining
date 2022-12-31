@@ -1,0 +1,16 @@
+package com.labour.laburservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.labour.laburservice.service.LabourServic;
+
+@RestController
+@RequestMapping("/api/labour")
+public class labourcontroller {
+	
+	@Autowired
+	LabourServic labourservice;
+
+}

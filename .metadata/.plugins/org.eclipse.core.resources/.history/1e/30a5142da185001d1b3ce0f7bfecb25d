@@ -1,0 +1,16 @@
+package com.service;
+
+import org.springframework.stereotype.Service;
+
+import com.employee.Employee;
+
+@Service
+public class EmployeeService {
+	
+	public Employee createEmployee(Employee emp) {
+		
+		return emp;
+	}
+	
+
+}

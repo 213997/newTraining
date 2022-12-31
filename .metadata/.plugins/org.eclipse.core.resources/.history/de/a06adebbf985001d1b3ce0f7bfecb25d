@@ -1,0 +1,18 @@
+package com.example.demo.entity;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Employee {
+	
+	private int empId;
+	
+
+	private String empName;
+	private String location;
+	
+	private String domain;
+	private String emailId;
+	
+	private int experience;
+}

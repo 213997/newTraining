@@ -1,0 +1,6 @@
+package com.inhecitance;
+
+public class Car extends vichel{
+	
+
+}

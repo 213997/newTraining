@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="emp" class="com.simpleexample.Projrct.Employee">
+		
+		<!--<property name="empId" value="101"></property>
+		<property name="Ename" value="Aashish"></property>
+		<property name="Location" value="Blr"></property>
+		<constructor-arg ref="display"></constructor-arg> -->
+		
+		<constructor-arg index="0" value="101"></constructor-arg>
+		<constructor-arg index="1" value="aashish"></constructor-arg>
+		<constructor-arg index="2" value="BLR"></constructor-arg>
+		
+		
+		
+	</bean>
+    
+
+</beans>

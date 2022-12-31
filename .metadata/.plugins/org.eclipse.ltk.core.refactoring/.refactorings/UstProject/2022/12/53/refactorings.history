@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.thisKeword&apos; to &apos;com.thisKeyword&apos;&#x0D;&#x0A;- Original project: &apos;UstProject&apos;&#x0D;&#x0A;- Original element: &apos;UstProject/src/com.thisKeword&apos;&#x0D;&#x0A;- Renamed element: &apos;UstProject/src/com.thisKeyword&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.thisKeword&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.thisKeword" name="com.thisKeyword" qualified="false" references="true" stamp="1672391450989" textual="false" version="1.0"/>
+</session>
