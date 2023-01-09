@@ -1,8 +1,0 @@
-package com.j8.Example;
-
-public class Consumer1 {
-	public static void main(String[] args) {
-		Consumer<Integer> cons=
-	}
-
-}

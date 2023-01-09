@@ -8,11 +8,4 @@
 	</buildSpec>
 	<natures>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>.link1</name>
-			<type>2</type>
-			<location>C:/Users/ustjavafsdb408/Documents/workspace-spring-tool-suite-4-4.17.0.RELEASE/EmpReg/target/classes</location>
-		</link>
-	</linkedResources>
 </projectDescription>

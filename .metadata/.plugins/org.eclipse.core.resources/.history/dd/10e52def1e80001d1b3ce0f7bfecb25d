@@ -1,7 +1,0 @@
-package com.j8.Example;
-
-public interface sim {
-	void calling();
-	void date();
-
-}

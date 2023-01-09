@@ -1,6 +1,0 @@
-package com.inhecitance;
-
-public class vichel {
-	String modelName;
-	int noofwheels;
-}
